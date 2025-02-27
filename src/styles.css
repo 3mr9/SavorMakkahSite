@@ -1,0 +1,95 @@
+#root {
+    color:#482f20;
+  }
+
+.n404 {
+    font-size: 6rem;
+    font-weight: 600;
+    text-align: center;
+    color: red;
+}
+
+.header {
+    background-color: #f9ddb3;
+    color: #482f20;
+    border-radius: 10px;
+    padding: 1rem;
+    max-width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.headerbutt {
+        color: #482f20;
+        text-align: center;
+        border-radius: 6px;
+        border-width: 2px;
+        border-color: #482f20;
+        font-size: 1rem;
+        cursor: pointer;
+        width: auto;
+        padding: 0.5rem;
+        font-weight: 600;
+        margin-right: 3px;
+        text-decoration: none;
+        border-style: solid;
+}
+
+
+
+.filterbutt {background-color: transparent;
+    color: #482f20;
+    text-align: center;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: #482f20;
+    font-size: 1rem;
+    cursor: pointer;
+    width: auto;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    font-weight: 600;
+    margin: 2px;
+    font-family: Rubik;
+    }
+
+.linkbutt {
+    background-color: #482f20;
+    color: #E8C48C;
+    text-align: center;
+    border: #482f20;
+    padding: 0.3rem;
+    text-decoration: none;
+    border-style: solid;
+    font-weight: 600;
+    margin: 0.3rem;
+    cursor: pointer;
+}
+.rescon {
+    background-color: #f9ddb3;
+    color: #482f20;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0.5rem;
+    max-width: 50%;
+    margin: auto;
+}
+.resimg {
+    border-radius: 10px;
+}
+.restit {
+    font-size: 3rem;
+    font-weight: 600;
+}
+.resbutt {
+    background-color: #482f20;
+    color: #E8C48C;
+    text-align: center;
+    padding: 0.4rem;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0.3rem;
+    cursor: pointer;
+}
