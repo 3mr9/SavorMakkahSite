@@ -17,7 +17,7 @@ function Menu({ posts }) {
             <img className="img-fluid" src={post.img} alt={post.nme} style={{width: '100%' ,height: '18rem', pointerEvents:'none', objectFit: 'cover'}} onError={(e)=> (e.target.src = "/204.png")} loading="lazy" />
             <div className="container-fluid" style={{margin:'8px'}}>
              <h3>{post.nme}</h3>
-             <p><i>{post.des}<br />{post.cat}</i></p>
+             <p>{post.cat}</p><p><i className="MenuTextOverflow">{post.des}</i></p>
              <Link className="linkbutt" to={`/post/${post.id}`}>{post.nme}</Link>
             </div>
           </div>

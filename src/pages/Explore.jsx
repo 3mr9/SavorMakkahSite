@@ -43,7 +43,7 @@ function Explore() {
           </div>
           <div className="container-fluid">
       <div className="container-fluid" style={{textAlign: 'center'}}>
-        <button className="filterbutt" onClick={() => filterPosts("All")}>الكل</button>
+        <button className="filterbutt" onClick={showRandomPost}>🎲 فاجئني</button>
         <button className="filterbutt" onClick={() => filterPosts("وجبات سريعة")}>وجبات سريعة</button>
         <button className="filterbutt" onClick={() => filterPosts("الإفطار")}>الإفطار</button>
         <button className="filterbutt" onClick={() => filterPosts("بيتزا")}>بيتزا</button>
@@ -51,7 +51,7 @@ function Explore() {
         <button className="filterbutt" onClick={() => filterPosts("آسوي")}>آسوي</button>
         <button className="filterbutt" onClick={() => filterPosts("مشاوي")}>مشاوي</button>
         <button className="filterbutt" onClick={() => filterPosts("الأرز")}>الأرز</button>
-        <button className="filterbutt" onClick={showRandomPost}>🎲 فاجئني</button>
+        <button className="filterbutt" onClick={() => filterPosts("All")}>الكل</button>
       </div>
       <div style={{textAlign: 'center'}}>
       <Menu posts={filteredPosts} />

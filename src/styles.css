@@ -14,7 +14,7 @@
     color: #482f20;
     border-radius: 10px;
     padding: 1rem;
-    max-width: 70%;
+    max-width: 90%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -30,9 +30,9 @@
         font-size: 1rem;
         cursor: pointer;
         width: auto;
-        padding: 0.5rem;
+        padding: 0.3rem;
         font-weight: 600;
-        margin-right: 3px;
+        margin-right: 2px;
         text-decoration: none;
         border-style: solid;
 }
@@ -72,12 +72,15 @@
     color: #482f20;
     text-align: center;
     border-radius: 10px;
-    padding: 0.5rem;
-    max-width: 50%;
+    padding: 1rem;
+    max-width: 70%;
     margin: auto;
 }
 .resimg {
     border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    
 }
 .restit {
     font-size: 3rem;
@@ -92,4 +95,7 @@
     font-weight: 600;
     margin: 0.3rem;
     cursor: pointer;
+}
+.MenuTextOverflow {
+    word-break: normal;
 }
