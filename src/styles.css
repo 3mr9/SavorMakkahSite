@@ -106,7 +106,7 @@
 }
 
 .conCon {
-    background-image: url("contactBG4.png");
+    background-image: url("/contactBG4.png");
     background-repeat: no-repeat;
     overflow: hidden;
     max-width: 100%;
