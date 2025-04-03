@@ -6,6 +6,7 @@ import SinglePost from './comps/SinglePost';
 import { useState, useEffect } from "react";
 import axios from 'axios'
 import Contact from './pages/contact';
+import MOTD from './comps/MOTD';
 function App() {
   const [posts, setPosts] = useState([]);
 
@@ -17,6 +18,8 @@ function App() {
 
 
   return (
+    <>
+    <MOTD />
    <div className="container-fluid" style={{textAlign: 'right', fontFamily: 'Rubik',}}>
 
     <BrowserRouter>
@@ -29,6 +32,7 @@ function App() {
       </Routes>
      </BrowserRouter>
    </div>
+   </>
   )
 }
 export default App;

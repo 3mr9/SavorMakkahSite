@@ -99,3 +99,31 @@
 .MenuTextOverflow {
     word-break: normal;
 }
+
+.genImgOpt {
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.conCon {
+    background-image: url("contactBG4.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: max-content;
+    background-position: center;
+}
+
+.conGog {
+    max-width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.MOTD {
+    background-color: #706D54;
+    color: #E8C48C;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+}

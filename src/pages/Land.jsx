@@ -7,7 +7,7 @@ function Land() {
         <div className="container-fluid" style={{
             color: '#482f20',
             textAlign: 'right',
-            marginBottom: '25rem'}}>
+            marginBottom: '23rem'}}>
          <div className="container-fluid" style={{textAlign: 'center'}}>
           <h1 style={{fontSize: '70px'}}>مرحباً بكم في تذوق مكة</h1>
           <h2>اكتشف أفضل تجارب تناول الطعام في مكة المكرمة</h2>
